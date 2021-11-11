@@ -18,11 +18,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Inherit common ArrowOS configurations
+$(call inherit-product, vendor/arrow/config/common.mk)
+
 # Inherit from device makefile
 $(call inherit-product, device/realme/moon/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_moon
+PRODUCT_NAME := arrow_moon
 PRODUCT_DEVICE := moon
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G95 Series
