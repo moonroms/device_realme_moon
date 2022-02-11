@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
 # Keep this after including updatable_apex.mk
 PRODUCT_COMPRESSED_APEX := false
 
+# IORap
+PRODUCT_PRODUCT_PROPERTIES += \
+     ro.iorapd.enable=true
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
