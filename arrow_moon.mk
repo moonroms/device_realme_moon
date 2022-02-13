@@ -28,7 +28,7 @@ $(call inherit-product, device/realme/moon/device.mk)
 PRODUCT_NAME := arrow_moon
 PRODUCT_DEVICE := moon
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := Realme G95 Series
+PRODUCT_MODEL := Realme Moon
 PRODUCT_MANUFACTURER := realme
 
 TARGET_BOOT_ANIMATION_RES := 720
