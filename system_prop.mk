@@ -11,7 +11,15 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Dex
 PRODUCT_PRODUCT_PROPERTIES += \
-    dalvik.vm.dex2oat64.enabled=true
+    dalvik.vm.dex2oat64.enabled=true \
+    persist.bg.dexopt.enable=true \
+    dalvik.vm.dexopt.secondary=true \
+    pm.dexopt.install=speed-profile \
+    pm.dexopt.bg-dexopt=speed-profile \
+    pm.dexopt.boot=verify \
+    pm.dexopt.first-boot=quicken \
+    dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5 \
+    dalvik.vm.dex2oat-threads=6
 
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
