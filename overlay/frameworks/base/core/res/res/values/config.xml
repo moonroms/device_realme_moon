@@ -724,4 +724,11 @@
    <!-- Amount of time in ms the user needs to press the relevant keys to trigger the screenshot chord -->
     <integer name="config_screenshotChordKeyTimeout">0</integer>
 
+   <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">false</bool>
+
+     <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">false</bool>
+
 </resources>
