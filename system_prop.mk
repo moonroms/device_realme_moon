@@ -33,6 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=320
+    persist.sys.sf.color_saturation=1.1 \
+    persist.sys.sf.native_mode=0 \
 	
 # Hardware Acceleration
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
