@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_moon.mk
+    $(LOCAL_DIR)/cipher_moon.mk
