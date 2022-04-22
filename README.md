@@ -4,7 +4,7 @@ Realme Narzo 30A / Narzo 20 / 7i EU Device Tree - RMX3171/RMX2193
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | OOcta-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)
+CPU     | Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)
 Chipset | MediaTek Helio G85 (12 nm)
 GPU     | Mali-G52 MC2
 Memory  | 3/4 GB
@@ -18,12 +18,6 @@ Rear Camera  | Dual : 13 MP; 2MP (depth)
 Front Camera | Single: 8 MP
 Release Month | Announched: Feb 24, 2021; Released: 2021, March 05 
 
-![Realme Narzo 30A](https://fdn2.gsmarena.com/vv/pics/realme/realme-narzo-30a-1.jpg "Realme Narzo 20")
-
-
-Patches needed:
-
-1. Needed to boot: https://github.com/SamarV-121/android_vendor_extra/blob/lineage-18.1/patches/external/selinux/0001-Revert-libsepol-Make-an-unknown-permission-an-error-.patch
-2. Needed for AV fix: https://github.com/phhusson/platform_frameworks_av/commit/624cfc90b8bedb024f289772960f3cd7072fa940.patch
+![Realme Narzo 30A](https://github.com/DPSLEGEND/DPSLEGEND/blob/main/IMG_20220422_181405_423.jpg)
 
 Copyright (C) 2021 Lineage OS
